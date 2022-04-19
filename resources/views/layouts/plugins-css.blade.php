@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{asset('vendor/bootstrap-toggle/css/bootstrap-toggle.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/bootstrap/css/bootstrap-datepicker.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/bootstrap/css/bootstrap-select.min.css')}}">
+<link rel="stylesheet" href="{{asset('css/grasp_mobile_progress_circle-1.0.0.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/jquery-timepicker/jquery.timepicker.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/bootstrap/css/awesome-bootstrap-checkbox.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/dripicons/webfont.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/keyboard/css/keyboard.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/daterange/css/daterangepicker.min.css')}}">
+<link rel="stylesheet" href="{{asset('vendor/datatable/dataTables.bootstrap4.min.css')}}">
+<link rel="stylesheet" href="{{asset('css/dropzone.css')}}">

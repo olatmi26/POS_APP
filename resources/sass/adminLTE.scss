@@ -1,0 +1,442 @@
+$sitecolor1:#ffb600;
+$baseColor:#ffb600;
+$sitecolor2:#0E1B3D;
+$sitetextcolor: #898989;
+$sitecolor3:#a1b1c1;
+$buttoncolor:#1dc1f8;
+$bgbasecolor:#f6f6f6;
+$bg2: #eeeeee;
+$sitecolor1:#ffb600;
+$bg-light: #f2f4fb;
+$bg-deep2: #11224d;
+$bg-light2: #f0f4f9;
+$sitecol: #617074;
+$sitecol2: #CA970B;
+$sitecol3: #F4F4F4;
+.sitecolor1 {
+    background-color: $sitecolor1;
+}
+
+.baseColor {
+    background-color: $baseColor;
+}
+
+.sitecolor2 {
+    background-color: $sitecolor2;
+}
+
+.sitetextcolor {
+    background-color: $sitetextcolor;
+}
+
+.sitecolor3 {
+    background-color: $sitecolor3;
+}
+
+.buttoncolor {
+    background-color: $buttoncolor;
+}
+
+.bgbasecolor {
+    background-color: $bgbasecolor;
+}
+
+.bg2 {
+    background-color: $bg2;
+}
+
+.sitecolor1 {
+    background-color: $sitecolor1;
+}
+
+.bg-light {
+    background-color: $bg-light;
+}
+
+.bg-deep2 {
+    background-color: $bg-deep2;
+}
+
+.bg-light2 {
+    background-color: $bg-light2;
+}
+
+.sitecol {
+    background-color: $sitecol;
+}
+
+.sitecol2 {
+    background-color: $sitecol2;
+}
+
+.sitecol3 {
+    background-color: $sitecol3;
+}
+
+.sitedkb {
+    background-color: #172b4d !important;
+}
+
+.tx-sitecolor1 {
+    color: $sitecolor1;
+}
+
+.tx-baseColor {
+    color: $baseColor;
+}
+
+.tx-sitecolor2 {
+    color: $sitecolor2;
+}
+
+.tx-sitetextcolor {
+    color: $sitetextcolor;
+}
+
+.tx-sitecolor3 {
+    color: $sitecolor3;
+}
+
+.tx-buttoncolor {
+    color: $buttoncolor;
+}
+
+.tx-bgbasecolor {
+    color: $bgbasecolor;
+}
+
+.tx-bg2 {
+    color: $bg2;
+}
+
+.tx-sitecolor1 {
+    color: $sitecolor1;
+}
+
+.tx-bg-light {
+    color: $bg-light;
+}
+
+.tx-bg-deep2 {
+    color: $bg-deep2;
+}
+
+.tx-bg-light2 {
+    color: $bg-light2;
+}
+
+.tx-sitecol {
+    color: $sitecol;
+}
+
+.tx-sitecol2 {
+    color: $sitecol2;
+}
+
+.tx-sitecol3 {
+    color: $sitecol3;
+}
+
+.tx-sitedkb {
+    color: #172b4d !important;
+}
+
+.deep-purple {
+    color: #673AB7 !important;
+}
+
+img.siteLogo {
+    height: 3.1rem;
+}
+
+.nav-link .image>img.img-circle {
+    height: auto;
+    margin-top: -3px;
+    width: 2.1rem;
+}
+
+.content-wrapper {
+    background-color: #f2f5fa;
+    // background-color: #f0f2f5;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #0e1b3d !important;
+    // background-color: #172b4d !important;
+}
+
+.navbar-white {
+    background-color: #f9fbfd;
+}
+
+.dropdown-header .user-header .user-text {
+    margin-left: 30px;
+    width: fit-content;
+    margin-top: 13px;
+}
+
+.small-box .icon {
+    color: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+}
+
+.nav-sidebar>.nav-item {
+    margin-bottom: 0rem !important;
+}
+
+.user-panel {
+    color: #fff !important;
+    // background-image: linear-gradient(180deg, #4e73df 10%, #224abe);
+    // background-size: cover;
+    font-size: 1.1rem;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    font-family: monospace;
+    background-color: #00CDA6;
+    // background-size: cover;
+    font-weight: 900;
+}
+
+.sidebar {
+    .nav-link {
+        display: block;
+        padding: 0.5rem 0.5rem;
+    }
+}
+
+// .nav-item > .nav-link{
+// 	right: -8px;
+// }
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active,
+.sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    // padding: 0.75rem;
+    background-color: #007bff;
+    background-image: linear-gradient(180deg, #4e73df 10%, #224abe);
+    //background-image: linear-gradient(90deg, #324466, #60799e 79%);
+    background-size: cover;
+    font-size: 1.10rem;
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item.menu-open>.nav-link,
+[class*=sidebar-dark-] .nav-sidebar>.nav-item:hover>.nav-link,
+[class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link:focus {
+    background-image: linear-gradient(180deg, #4e73df 10%, #224abe);
+    // background-image: linear-gradient(90deg, #324466, #60799e 79%);
+    color: #fff;
+    background-size: cover;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link:hover,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link:focus,
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link:active {
+    background-color: #19306d !important;
+    color: #fff;
+}
+
+.nav-treeview>li.nav-item.active a {
+    background-color: #19306d !important;
+    color: #fff !important;
+}
+
+.sidebar {
+    overflow-x: hidden !important;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    background-image: linear-gradient(90deg, #324466, #60799e 79%);
+}
+
+.nav-sidebar>.nav-item {
+    margin-bottom: .8rem !important;
+}
+
+[class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-treeview {
+    .nav-item {
+        margin-bottom: 0.5rem !important;
+        margin-top: 0.5rem !important;
+    }
+}
+
+.divider {
+    border: 1px solid #e8e8e8;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, .55) !important;
+}
+
+.small-box h3 {
+    font-size: 1.70rem !important;
+}
+
+.nav-sidebar>.nav-item {
+    margin-bottom: 0rem !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0rem;
+}
+
+.nav-sidebar .nav-item>.nav-link {
+    margin-left: 2.5px;
+}
+
+.small-box.shadow-info {
+    box-shadow: inset 0 0 20px #0f6674
+}
+
+.small-box.shadow-primary {
+    box-shadow: inset 0 0 20px #5f27cd;
+}
+
+.small-box.shadow-revenue {
+    box-shadow: inset 0 0 20px #411b8d;
+}
+
+.small-box.shadow-danger {
+    background-color: #dc3545 !important;
+    box-shadow: inset 0 0 20px #a71d2a;
+}
+
+.small-box.shadow-success {
+    background-color: #28a745 !important;
+    box-shadow: inset 0 0 20px #19692c;
+}
+
+.small-box.shadow-warning {
+    background-color: #ffb600 !important;
+    box-shadow: inset 0 0 20px #b37f00;
+}
+
+.elevation-4 {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22)!important;
+}
+
+small#bankdetails {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    left: -14rem !important;
+    position: absolute;
+    font-size: 1rem !important;
+    top: 80px !important;
+}
+
+.guestEntryFOrm {
+    background-color: #f8f9f9 !important;
+}
+
+.fs-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #673AB7;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn:disabled {
+    color: blueviolet !important;
+    background-color: #e9ecef !important;
+    border-color: #e9ecef !important;
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media screen and (max-width: 576px) {
+    small#bankdetails {
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content;
+        left: 0rem !important;
+        position: relative;
+        font-size: 1rem !important;
+        top: 20px !important;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+    span.bankdetails {
+        top: -169px !important;
+        position: absolute;
+        width: max-content;
+    }
+    span#acctdtls {
+        margin-top: 116px;
+        font-size: 18px;
+    }
+    .fs-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    input#inlineCheckbox1,
+    input#inlineCheckbox2,
+    input#paymentMethod1,
+    input#paymentMethod2,
+    input#paymentMethod3 {
+        position: absolute;
+        top: 4px;
+    }
+    #existingGuest,
+    #newGuest {
+        height: 20px !important;
+    }
+    .swal2-popup.swal2-modal.swal2-show {
+        width: 100% !important;
+    }
+    .content {
+        padding: 0 0rem !important;
+    }
+    .h-title {
+        font-size: 1.5rem !important;
+    }
+    small#bankdetails {
+        position: absolute;
+        width: max-content !important;
+        left: -1px;
+        bottom: -49px;
+    }
+    .login-logo {
+        margin-left: 0px;
+    }
+    .loginholder {
+        margin-top: .45%;
+    }
+    .card,
+    .login-card-body,
+    .register-card-body {
+        border-radius: 10px !important;
+    }
+    img.siteLogo {
+        height: 2.75rem;
+        display: block;
+        align-items: center;
+        margin-right: 0px !important;
+        .mr-3 {
+            margin-right: 0px !important;
+        }
+    }
+    .text-admin {
+        position: absolute;
+        width: fit-content;
+        margin-left: 36px;
+        margin-top: -17px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    // img.siteLogo {
+    //     height: 7.2rem;
+    //     margin-top: -2.45rem !important;
+    // }
+}
+
+@import '~admin-lte';
+@import 'fonts';
+@import 'login';
+.nav-sidebar .nav-item>.nav-link {
+    margin-left: 0px;
+}

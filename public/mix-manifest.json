@@ -1,4 +1,9 @@
 {
+    "/js/chart.js": "/js/chart.js",
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/dashboard.js": "/js/dashboard.js",
+    "/js/adminsrcipts.js": "/js/adminsrcipts.js",
+    "/css/app.css": "/css/app.css",
+    "/plugins/fonts/_fonts.css": "/plugins/fonts/_fonts.css",
+    "/css/dashboard.css": "/css/dashboard.css"
 }

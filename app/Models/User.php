@@ -2,43 +2,92 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Spatie\Permission\Traits\HasRoles;
+use App\Models\Customer;
+use App\Models\Warehouse;
+use Illuminate\Support\Str;
+// use App\Models\Role;
+use \Spatie\Permission\Models\Role;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, HasFactory, Notifiable;
+    use HasRoles;
+    use Notifiable; 
+    use HasFactory;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
     protected $fillable = [
-        'name',
+        'FirstName',
+        'SurName',
+        'MiddleName',
+        'address',
         'email',
+        'phoneN0',
         'password',
+        'username',
+        'isActive',
+        'userType',
+        'profileImage',
     ];
 
-    /**
-     * The attributes that should be hidden for serialization.
-     *
-     * @var array<int, string>
-     */
     protected $hidden = [
-        'password',
-        'remember_token',
+        'password', 'remember_token', 'email_verified_at'
     ];
 
+    
+    public function isActive()
+    {
+        return $this->isActive;
+    }
+
     /**
-     * The attributes that should be cast.
+     * Get the role that owns the User
      *
-     * @var array<string, string>
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
+    /**
+     * Get all of the customers for the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function customers()
+    {
+        return $this->hasMany(Customer::class);
+    }
+    
+    public function roles()
+    {
+        return $this->belongsToMany(Role::class)->withTimestamps();
+    }
+
+    public function hasAnyRoles($roles)
+    {
+        if ($this->roles()->whereIn('name', $roles)->first()) { //list or roles
+            return true;
+        }
+        return false;
+    }
+    
+    /**
+     * Get the wareHouse that owns the User
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function wareHouse()
+    {
+        return $this->belongsTo(Warehouse::class);
+    }
+    public function getFullNameAttribute()
+    {
+        return Str::upper($this->SurName) . ' ' . ucfirst($this->FirstName)   . ' ' . Str::upper($this->MiddleName);
+    }
 }
+
+
